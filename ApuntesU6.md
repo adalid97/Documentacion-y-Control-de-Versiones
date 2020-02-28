@@ -1,5 +1,10 @@
 # DOCUMENTACIÓN Y CONTROL DE VERSIONES
 
+## ÍNDICE
+- [INTRODUCCIÓN](##INTRODUCCIÓN).
+- [DOCUMENTACIÓN CON MARKDOWN](#DOCUMENTACIÓN-CON-MARKDOWN).
+- [CONTROL DE VERSIONES CON GIT](#CONTROL-DE-VERSIONES-CON-GIT).
+
 
 ## INTRODUCCIÓN
 ### EN ESTA UNIDAD APRENDEREMOS A
@@ -10,16 +15,108 @@
 
 ## DOCUMENTACIÓN CON MARKDOWN
 ### CABECERAS
+```markdown
+# Esto es un H1
+## Esto es un H2
+### Esto es un H3
+#### Esto es un H4
+##### Esto es un H5
+###### Esto es un H6
+```
 
 ### LISTAS SIN ORDEN
+```markdown
+* Item 1
+* Item 2
+ * Item 2a
+ * Item 2b
+```
+
 ### LISTAS CON ORDEN
+```markdown
+1. Item 1
+2. Item 2
+3. Item 3
+ * Item 3a
+ * Item 3b
+```
 ### FORMATO
+#### Cursivas
+
+`*Esto es cursiva*`
+
+`_Esto también es cursiva_`
+
+#### Negrita
+
+`**Esto es negrita**`
+
+`__Esto también es negrita__`
+
+#### Tachado
+`~~esto~~`
+
 ### ENLACES
+```markdown
+https://github.com/adalid97 - GitHub José Ángel Adalid
+[GitHub](https://github.com/adalid97)
+```
+
 ### IMÁGENES
+```markdown
+![GitHub Logo](/images/logo.jpg)
+Formato: ![Texto alternativo](url)
+```
+![GitHub Logo](https://steemitimages.com/640x0/https://camo.githubusercontent.com/7710b43d0476b6f6d4b4b2865e35c108f69991f3/68747470733a2f2f7777772e69636f6e66696e6465722e636f6d2f646174612f69636f6e732f6f637469636f6e732f313032342f6d61726b2d6769746875622d3235362e706e67)
+
 ### CITAS
+```markdown
+Como dijo Grace Hopper:
+> I’ve always been more interested
+> in the future than in the past.
+```
+
 ### CÓDIGO FUENTE
+<pre>
+```javascript
+var s = "Lenguaje javascript. Se realizará coloreado de sintaxis.";
+alert(s); 
+```
+
+```python
+s = "Lenguaje Python. Se realizará coloreado de sintaxis."
+print s
+```
+
+```
+No se indica lenguaje. No se realizará coloreado de sintaxis. 
+```
+</pre>
+
 ### MENCIONES Y REFERENCIAS
 
+### TABLAS
+<pre>
+|HORA| LUNES | MARTES | MIÉRCOLES | JUEVES | VIERNES |
+| -- | -- | -- | -- | -- | -- |
+|8:15| DWEC | DAW | DWEC | DWEC | EIE |
+|9:15| DWEC | EIE | DWEC | DWEC | EIE |
+|10:15| DIW | EIE | DWES | DWES | HLC |
+|11:15| R | E | CR | E | O |
+|11:45| DIW | DIW | DWES | DWES | DIW |
+|12:45| DWES | DWES | DIW | DAW | HLC |
+|13:45| DWES | DWES | DIW | DAW | HLC |
+</pre>
+
+|HORA| LUNES | MARTES | MIÉRCOLES | JUEVES | VIERNES |
+| -- | -- | -- | -- | -- | -- |
+|8:15| DWEC | DAW | DWEC | DWEC | EIE |
+|9:15| DWEC | EIE | DWEC | DWEC | EIE |
+|10:15| DIW | EIE | DWES | DWES | HLC |
+|11:15| R | E | CR | E | O |
+|11:45| DIW | DIW | DWES | DWES | DIW |
+|12:45| DWES | DWES | DIW | DAW | HLC |
+|13:45| DWES | DWES | DIW | DAW | HLC |
 
 ## CONTROL DE VERSIONES CON GIT
 ### INSTALACIÓN DE GIT
