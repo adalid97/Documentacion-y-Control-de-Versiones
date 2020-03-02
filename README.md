@@ -1,11 +1,13 @@
 # DOCUMENTACIÓN Y CONTROL DE VERSIONES
 
 ## ÍNDICE
+
 - [INTRODUCCIÓN](##INTRODUCCIÓN).
 - [DOCUMENTACIÓN CON MARKDOWN](#DOCUMENTACIÓN-CON-MARKDOWN).
 - [CONTROL DE VERSIONES CON GIT](#CONTROL-DE-VERSIONES-CON-GIT).
 
 ## INTRODUCCIÓN
+
 ### EN ESTA UNIDAD APRENDEREMOS A
  - Identificar diferentes herramientas de generación de documentación.
  - Utilizar diferentes formatos para la documentación.
@@ -13,6 +15,7 @@
  - Instalar, configurar y utilizar un sistema de control de versiones.
 
 ## DOCUMENTACIÓN CON MARKDOWN
+
 ### CABECERAS
 ```markdown
 # Esto es un H1
@@ -22,9 +25,17 @@
 ##### Esto es un H5
 ###### Esto es un H6
 ```
-Menciones a usuarios: @usuario
 
-Referencias a Issues y Pull request: #numero
+### LISTAS SIN ORDEN
+```markdown
+* Item 1
+* Item 2
+ * Item 2a
+ * Item 2b
+```
+
+### LISTAS CON ORDEN
+```markdown
 1. Item 1
 2. Item 2
 3. Item 3
@@ -52,6 +63,8 @@ Referencias a Issues y Pull request: #numero
 https://github.com/adalid97 - GitHub José Ángel Adalid
 [GitHub](https://github.com/adalid97)
 ```
+https://github.com/adalid97 - GitHub José Ángel Adalid
+[GitHub](https://github.com/adalid97)
 
 ### IMÁGENES
 ```markdown
@@ -127,6 +140,7 @@ No se indica lenguaje. No se realizará coloreado de sintaxis.
 |13:45| DWES | DWES | DIW | DAW | HLC |
 
 ## CONTROL DE VERSIONES CON GIT
+
 ### INSTALACIÓN DE GIT
 ```ssh
 sudo  apt  install  git
