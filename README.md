@@ -188,22 +188,22 @@ git  push  origin  master
 ### TRABAJO CON RAMAS
 Crea un branch
 ```ssh
-	git branch <nombreBranch>
+git branch <nombreBranch>
 ```
 Lista los branches
 ```ssh
-	git branch
+git branch
 ```
 
 Elimina sin preguntar
 ```ssh
-	git branch -D <nombreBranch>
+git branch -D <nombreBranch>
 ```
 
 ### CHECKOUT
 El comando checkout nos permite cambiar de rama..
 ```ssh
-	git  checkout <nombreBranch>
+git  checkout <nombreBranch>
 ```
 
 También sirve para cambiar de commit dentro de una rama.
