@@ -159,7 +159,7 @@ git  config  --global  user.email  "nombre@mail.com"
 ```ssh
 git  init
 ```
-  - Cargar en el HEAD los cambios realizados.
+Cargar en el HEAD los cambios realizados.
 ```ssh
 git  commit -m  "Mensaje"
 ```
