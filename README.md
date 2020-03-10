@@ -157,6 +157,8 @@ No se indica lenguaje. No se realizará coloreado de sintaxis.
 | -- | -- | -- |
 | :smirk: `:smirk:` | :heart_eyes: `:heart_eyes:` | :kissing_heart: `:kissing_heart:` |
 
+[Repositorio Emoji](https://github.com/adalid97/emoji-cheat-sheet)
+
 ## CONTROL DE VERSIONES CON GIT
 
 ### INSTALACIÓN DE GIT
