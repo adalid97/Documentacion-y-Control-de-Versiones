@@ -154,6 +154,7 @@ No se indica lenguaje. No se realizará coloreado de sintaxis.
 
 ### EMOJIS
 | :blush: `:blush:` | :smiley: `:smiley:` | :relaxed: `:relaxed:` |
+| -- | -- | -- |
 | :smirk: `:smirk:` | :heart_eyes: `:heart_eyes:` | :kissing_heart: `:kissing_heart:` |
 
 ## CONTROL DE VERSIONES CON GIT
