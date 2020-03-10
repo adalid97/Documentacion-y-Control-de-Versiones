@@ -152,6 +152,10 @@ No se indica lenguaje. No se realizará coloreado de sintaxis.
 |12:45| DWES | DWES | DIW | DAW | HLC |
 |13:45| DWES | DWES | DIW | DAW | HLC |
 
+### EMOJIS
+| :blush: `:blush:` | :smiley: `:smiley:` | :relaxed: `:relaxed:` |
+| :smirk: `:smirk:` | :heart_eyes: `:heart_eyes:` | :kissing_heart: `:kissing_heart:` |
+
 ## CONTROL DE VERSIONES CON GIT
 
 ### INSTALACIÓN DE GIT
