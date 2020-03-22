@@ -1,10 +1,10 @@
-# DOCUMENTACIÓN Y CONTROL DE VERSIONES
+# DOCUMENTACIÓN Y CONTROL DE VERSIONES :memo:
 
 ## ÍNDICE
 
-- [INTRODUCCIÓN](##INTRODUCCIÓN).
-- [DOCUMENTACIÓN CON MARKDOWN](#DOCUMENTACIÓN-CON-MARKDOWN).
-- [CONTROL DE VERSIONES CON GIT](#CONTROL-DE-VERSIONES-CON-GIT).
+- [INTRODUCCIÓN](#INTRODUCCIÓN)
+- [DOCUMENTACIÓN CON MARKDOWN](#DOCUMENTACIÓN-CON-MARKDOWN)
+- [CONTROL DE VERSIONES CON GIT](#CONTROL-DE-VERSIONES-CON-GIT)
 
 ## INTRODUCCIÓN
 
@@ -30,18 +30,31 @@
 ```markdown
 * Item 1
 * Item 2
- * Item 2a
- * Item 2b
+  * Item 2a
+  * Item 2b
+    * Item 2ba
+    * Item 2bb
 ```
-
+* Item 1
+* Item 2
+  * Item 2a
+  * Item 2b
+    * Item 2ba
+    * Item 2bb
+    
 ### LISTAS CON ORDEN
 ```markdown
 1. Item 1
 2. Item 2
 3. Item 3
- * Item 3a
- * Item 3b
+   * Item 3a
+   * Item 3b
 ```
+1. Item 1
+2. Item 2
+3. Item 3
+   * Item 3a
+   * Item 3b
 ### FORMATO
 #### Cursivas
 
@@ -138,6 +151,13 @@ No se indica lenguaje. No se realizará coloreado de sintaxis.
 |11:45| DIW | DIW | DWES | DWES | DIW |
 |12:45| DWES | DWES | DIW | DAW | HLC |
 |13:45| DWES | DWES | DIW | DAW | HLC |
+
+### EMOJIS
+| :blush: `:blush:` | :smiley: `:smiley:` | :relaxed: `:relaxed:` |
+| -- | -- | -- |
+| :smirk: `:smirk:` | :heart_eyes: `:heart_eyes:` | :kissing_heart: `:kissing_heart:` |
+
+[Repositorio Emoji](https://github.com/adalid97/emoji-cheat-sheet)
 
 ## CONTROL DE VERSIONES CON GIT
 
