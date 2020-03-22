@@ -148,11 +148,11 @@ sudo  apt  install  git
 ### CONFIGURACIÓN DE GIT
 Configurar el nombre que aparece en los commits.
 ```ssh
-git  config  --global  user.name   "Nombre y Apellidos"
+git config user.name "adalid97"
 ```
 Configurar Email.
 ```ssh
-git  config  --global  user.email  "nombre@mail.com"
+git config user.email "jadalid97@gmail.com"
 ```
 
 ### INICIAR REPOSITORIO LOCAL
